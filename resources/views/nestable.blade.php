@@ -1,16 +1,25 @@
 @extends ('layouts.master')
 
+@section('css')
+    <head>
+        <link rel="stylesheet" type="text/css" href="admin/nestable/jquery.nestable.css" />
+    </head>
+@endsection
+
 @section ('content')
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="admin/nestable/jquery.nestable.css" />
-  </head>
+
   <body>
 
   <section id="container" class="">
       <!--main content start-->
       <section id="main-content">
+
+
+
           <section class="wrapper">
+
+
               <!-- page start-->
               <div class="row">
                   <div class="col-lg-12">
@@ -186,9 +195,13 @@
       <!--main content end-->
   </section>
 
+
+
+  </body>
+@endsection
+
+@section('script')
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="admin/nestable/jquery.nestable.js"></script>
     <script src="js/nestable.js"></script>
-
-  </body>
 @endsection

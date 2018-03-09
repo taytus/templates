@@ -1,3 +1,10 @@
+
+//BASE MODEL
+//scripts and css that I always use
+//select the the scripts that are not in that array
+
+
+
 @extends ('layouts.master')
 
 @section ('content')
@@ -41,4 +48,6 @@
 <link href="{{asset('admin/fullcalendar/fullcalendar/bootstrap-fullcalendar.css')}}" rel="stylesheet" />
 
 
-@endsection 
+@endsection
+
+

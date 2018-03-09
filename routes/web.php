@@ -11,4 +11,8 @@
 |
 */
 
+Route::get("/",function(){
+    dd("bye");
+});
+//login
 Route::get('/{something}', 'RenderController@index');
